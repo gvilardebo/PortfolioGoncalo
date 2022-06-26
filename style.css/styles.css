@@ -1,0 +1,38 @@
+.homepage{
+    font-family: var(--heading-font-family);
+    text-align: center;
+    padding-top: 140px;
+}
+
+h4{
+    line-height: 40px;
+    margin-left: 15px;
+    font-size: medium;
+}
+
+nav{
+    padding: 12px 20px;
+}
+
+nav ul{
+    margin-right: 20px;
+}
+
+nav li{
+    display: inline;
+    line-height: 40px;
+    padding: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+nav a:hover,
+nav li.active a, p a:hover
+{
+    color:rgb(61, 61, 61);
+    transition: all 100ms ease-in-out;
+}
